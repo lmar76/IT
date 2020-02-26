@@ -30,6 +30,16 @@ $ git ls-tree -r master --name-only
 
 # Notebooks repository
 
+Workflow:
+
+1. Update notebook on branch. Clear outputs and save.
+2. Commit and push.
+3. Change to master.
+4. Rebase.
+5. Execute notebook.
+6. Commit with `--amend` option.
+7. Force push.
+
 Rebasing after modifying a notebook:
 
 git rebase -X ours *branch*
@@ -39,3 +49,17 @@ E.g.:
 ```sh
 $ git rebase -X ours development
 ```
+
+Commit with `--amend` option:
+
+git commit -a --amend -m *comment*
+
+E.g.:
+
+```sh
+$ git commit -a --amend -m 'Notebook re-executed'
+```
+
+Force push:
+
+git push --force
