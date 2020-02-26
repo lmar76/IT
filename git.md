@@ -1,6 +1,6 @@
 # Archive export
 
-git archive --format tar.gz --output filename --prefix prefix master
+git archive --format tar.gz --output *filename* --prefix *prefix* *branch*
 
 E.g.:
 
@@ -10,17 +10,17 @@ $ git archive --format tar.gz --output ~/sara-config.tar.gz --prefix sara-config
 
 # How to tell which commit a tag points to in Git?
 
-git log tagname
+git log *tagname*
 
 or:
 
-git rev-list tagname
+git rev-list *tagname*
 
 # List files being tracked
 
 To list files being tracked under branch branch:
 
-git ls-tree -r branch --name-only
+git ls-tree -r *branch* --name-only
 
 E.g.:
 
@@ -32,4 +32,10 @@ $ git ls-tree -r master --name-only
 
 Rebasing after modifying a notebook:
 
-git rebase -X ours dev
+git rebase -X ours *branch*
+
+E.g.:
+
+```sh
+$ git rebase -X ours development
+```
