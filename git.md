@@ -1,4 +1,4 @@
-# Archive export
+## Archive export
 
 git archive --format tar.gz --output *filename* --prefix *prefix* *branch*
 
@@ -8,7 +8,21 @@ E.g.:
 $ git archive --format tar.gz --output ~/sara-config.tar.gz --prefix sara-config/ master
 ```
 
-# How to tell which commit a tag points to in Git?
+## Delete branches
+
+Delete branch locally:
+
+```
+git branch -d localBranchName
+```
+
+Delete branch remotely:
+
+```
+git push origin --delete remoteBranchName
+```
+
+## How to tell which commit a tag points to in Git?
 
 git log *tagname*
 
@@ -16,7 +30,7 @@ or:
 
 git rev-list *tagname*
 
-# List files being tracked
+## List files being tracked
 
 To list files being tracked under branch branch:
 
@@ -28,7 +42,7 @@ E.g.:
 $ git ls-tree -r master --name-only
 ```
 
-# Notebooks repository
+## Notebooks repository
 
 Workflow:
 
