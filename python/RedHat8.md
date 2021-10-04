@@ -3,11 +3,17 @@
 Install `python39`:
 
 ```sh
-# dnf install python39
+dnf install python39
 ```
 
 Update `alternatives`:
 
 ```sh
-# alternatives --set python3 /usr/bin/python3.9
+alternatives --set python3 /usr/bin/python3.9
+```
+
+Check `python3` entry in the `alternatives`:
+
+```sh
+alternatives --list
 ```
