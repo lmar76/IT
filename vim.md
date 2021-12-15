@@ -3,6 +3,8 @@
 ## General
 
 ```vim
+colo evening
+
 if has("autocmd")
   filetype plugin indent on
 	autocmd FileType python setlocal et sw=4 sts=4 sta
@@ -14,11 +16,9 @@ endif
 if exists("+autochdir")
 	set autochdir
 endif
-
-map <F12> :colo evening <enter>
 ```
 
-Additional option for Python:`tw=78`
+Additional option for latex:`tw=78`
 
 ## Descrizione
 
