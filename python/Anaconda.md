@@ -34,5 +34,10 @@ Use the `-c` option to add additional channels:
 conda env export --from-history -c conda-forge -f environment.yml
 ```
 
-
 See [Exporting the environment.yml file](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#exporting-the-environment-yml-file)
+
+# Updating Anaconda environments
+
+```
+conda info --envs | awk '{ if ($1 != "#" && $1 != "") { print $1 } }' | while read env ; do conda update -n $env -y --all ; done
+```
