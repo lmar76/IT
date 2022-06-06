@@ -77,3 +77,9 @@ $ git commit -a --amend -m 'Notebook re-executed'
 Force push:
 
 git push --force
+
+## Reset repository
+
+```sh
+$ git reset --hard
+```
