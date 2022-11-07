@@ -1,4 +1,6 @@
-# Creating an environment from an environment.yml file
+# Environments
+
+## Creating an environment from an environment.yml file
 
 Run:
 
@@ -8,7 +10,7 @@ conda env create -f environment.yml
 
 See [Creating an environment from an environment.yml file](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
 
-# Exporting the environment.yml file
+## Exporting the environment.yml file
 
 Activate the environment:
 
@@ -16,7 +18,7 @@ Activate the environment:
 conda activate myenv
 ```
 
-Export the anvironment:
+Export the environment:
 
 ```
 conda env export -f environment.yml
@@ -36,8 +38,38 @@ conda env export --from-history -c conda-forge -f environment.yml
 
 See [Exporting the environment.yml file](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#exporting-the-environment-yml-file)
 
-# Updating Anaconda environments
+## Updating Anaconda environments
 
 ```
 conda info --envs | awk '{ if ($1 != "#" && $1 != "") { print $1 } }' | while read env ; do conda update -n $env -y --all ; done
 ```
+
+# Kernels
+
+## Listing and managing kernels
+
+Activate the base environment:
+
+```
+conda activate base
+```
+List the installed kernels:
+
+```
+jupyter kernelspec list
+```
+
+## Creating a new Python kernel
+
+Activate the environment:
+
+```
+conda activate myenv
+```
+
+Create the new Python kernel:
+
+```
+python -m ipykernel install --name <name> --display-name "<long name>" --sys-prefix
+```
+
