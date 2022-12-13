@@ -49,6 +49,8 @@ Additional option for latex:`tw=78`
 
 Plugin Manager: [junegunn/vim-plug](https://github.com/junegunn/vim-plug)
 
+Conquer of Completion: [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
+
 # Syntax
 
 ## Set syntax language
