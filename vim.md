@@ -32,6 +32,10 @@ Additional option for latex:`tw=78`
 
 **smarttab** oppure **sta**: In combinazione con le opzioni precedenti questa impostazione permette di cancellare un rientro (4 spazi reali nel nostro caso) con una sola pressione del tasto BS (o BackSpace).
 
+# Plugins
+
+Plugin Manager: [junegunn/vim-plug](https://github.com/junegunn/vim-plug)
+
 # Syntax
 
 ## Set syntax language
