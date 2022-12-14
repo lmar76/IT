@@ -44,32 +44,3 @@ See [Exporting the environment.yml file](https://docs.conda.io/projects/conda/en
 conda info --envs | awk '{ if ($1 != "#" && $1 != "") { print $1 } }' | while read env ; do conda update -n $env -y --all ; done
 ```
 
-# Kernels
-
-## Listing and managing kernels
-
-Activate the base environment:
-
-```
-conda activate base
-```
-List the installed kernels:
-
-```
-jupyter kernelspec list
-```
-
-## Creating a new Python kernel
-
-Activate the environment:
-
-```
-conda activate myenv
-```
-
-Create the new Python kernel:
-
-```
-python -m ipykernel install --name <name> --display-name "<long name>" --sys-prefix
-```
-
