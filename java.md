@@ -1,5 +1,11 @@
 # Java
 
+## Documentation
+
+Official documentation: https://docs.oracle.com/en/java/
+
+Java tutorials: https://docs.oracle.com/javase/tutorial/
+
 ## HTTP servers and servlet containers
 
 Apache Tomcat: https://tomcat.apache.org/
