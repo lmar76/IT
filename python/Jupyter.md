@@ -2,6 +2,11 @@
 
 ## Create a new Python kernel
 
+Requirements:
+```
+ipykernel
+```
+
 Activate the environment:
 
 ```
