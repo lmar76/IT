@@ -2,7 +2,7 @@
 
 ## Create a new Python kernel
 
-Requirements:
+Requirements for the specific environment:
 ```
 ipykernel
 ```
