@@ -44,3 +44,20 @@ See [Exporting the environment.yml file](https://docs.conda.io/projects/conda/en
 conda info --envs | awk '{ if ($1 != "#" && $1 != "") { print $1 } }' | while read env ; do conda update -n $env -y --all ; done
 ```
 
+# Troubleshooting
+
+## Installation
+
+```
+conda.exe: error while loading shared libraries: libz.so.1
+```
+
+See: https://stackoverflow.com/questions/60106630/conda-exe-error-while-loading-shared-libraries-libz-so-1
+
+Usually the problem is due to the `noexec` flag set on `/tmp` in `/etc/fstab`. In this case:
+
+```
+mkdir /users/$USER/tmpconda
+TMPDIR=/users/$USER/tmpconda bash Miniconda2-latest-Linux-x86_64.sh
+```
+
