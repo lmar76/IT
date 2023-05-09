@@ -1,3 +1,28 @@
+# Daemon configuration
+
+Reference: https://docs.docker.com/config/daemon/
+
+Configuration file:
+- on Linux: `/etc/docker/daemon.json`
+
+## Daemon data directory
+
+Daemon data directory is stored by defaul:
+- on Linux: in `/var/lib/docke'
+- on Windows: in `C:\ProgramData\docker`
+
+Different paths can be specified using the `data-root` configuration parameter. E.g.:
+
+```json
+{
+  "data-root": "/mnt/docker-data"
+}
+```
+
+
+Reference: https://docs.docker.com/config/daemon/#daemon-data-directory
+
+
 # Run a container
 
 ## Run a container in interactive mode
