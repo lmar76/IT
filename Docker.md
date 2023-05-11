@@ -8,7 +8,7 @@ Configuration file:
 ## Daemon data directory
 
 Daemon data directory is stored by defaul:
-- on Linux: in `/var/lib/docke'
+- on Linux: in `/var/lib/docker'
 - on Windows: in `C:\ProgramData\docker`
 
 Different paths can be specified using the `data-root` configuration parameter. E.g.:
