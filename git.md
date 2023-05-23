@@ -1,3 +1,11 @@
+## Apply patch
+
+git apply patch *filename*, where *filename* is a `.patch` file. E.g.:
+
+```console
+git apply patch biomasspy.patch
+```
+
 ## Archive export
 
 git archive --format tar.gz --output *filename* --prefix *prefix* *branch*
