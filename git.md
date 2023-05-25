@@ -46,8 +46,8 @@ git ls-tree -r *branch* --name-only
 
 E.g.:
 
-```sh
-$ git ls-tree -r master --name-only
+```console
+git ls-tree -r master --name-only
 ```
 
 ## Notebooks repository
