@@ -1,14 +1,6 @@
-# Vim an its descendants
+# Vim and Neovim notes
 
-## Vim
-
-### Plugins
-
-Plugin Manager: [junegunn/vim-plug](https://github.com/junegunn/vim-plug)
-
-Conquer of Completion: [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
-
-### Options
+## Options
 
 Set syntax highlighting:
 
@@ -16,9 +8,19 @@ Set syntax highlighting:
 :set syntax=<language>
 ```
 
-## Neovim
+## Plugins
 
-### Lua API
+- Conquer of Completion:
+  - description: code completion
+  - compatibility: vim, neovim
+  - homepage: https://github.com/neoclide/coc.nvim
+
+- vim-plug
+  - description: plugin manager
+  - compatibility: vim, neovim
+  - homepage: https://github.com/junegunn/vim-plug
+
+## Lua API for Neovim
 
 Check status of `vim` object:
 
