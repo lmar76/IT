@@ -2,10 +2,6 @@
 
 ## Vim
 
-### Configuration
-
-See https://github.com/lmar76/vim-settings
-
 ### Plugins
 
 Plugin Manager: [junegunn/vim-plug](https://github.com/junegunn/vim-plug)
