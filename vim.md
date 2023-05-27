@@ -15,6 +15,16 @@ Set syntax highlighting:
   - compatibility: vim, neovim
   - homepage: https://github.com/neoclide/coc.nvim
 
+- lazy.nvim
+  - description: plugin manager
+  - compatibility: neovim
+  - homepage: https://github.com/folke/lazy.nvim
+
+- packer.nvim
+  - description: plugin manager
+  - compatibility: neovim
+  - homepage: https://github.com/wbthomason/packer.nvim
+
 - vim-plug
   - description: plugin manager
   - compatibility: vim, neovim
