@@ -34,3 +34,13 @@ docker run -i -t [docker_image]
 ```sh
 docker run --entrypoint [new_command] [docker_image]
 ```
+
+# Open Container Initiative
+
+The Open Container Initiative is an open governance structure for the express purpose of
+creating open industry standards around container formats and runtimes.
+
+Web site: https://opencontainers.org/
+
+- OCI Image Manifest Specification: https://github.com/opencontainers/image-spec/blob/main/manifest.md
+- GitHub project: https://github.com/opencontainers
