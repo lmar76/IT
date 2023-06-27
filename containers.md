@@ -1,4 +1,6 @@
-# Daemon configuration
+# Docker
+
+## Daemon configuration
 
 Reference: https://docs.docker.com/config/daemon/
 
@@ -19,11 +21,7 @@ Different paths can be specified using the `data-root` configuration parameter. 
 }
 ```
 
-
 Reference: https://docs.docker.com/config/daemon/#daemon-data-directory
-
-
-# Run a container
 
 ## Run a container in interactive mode
 
