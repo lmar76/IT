@@ -1,7 +1,11 @@
-## Data analysis
+## Recipes
 
-- Polars: https://pola-rs.github.io/polars-book/
-- PyArrow: https://arrow.apache.org/docs/python/
+## Convert hexadecimal string to `bytes`
+
+```python
+hex_string = "deadbeef"
+bytes_data = bytes.fromhex(hex_string)
+```
 
 ## Web GUI
 
