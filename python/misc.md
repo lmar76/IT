@@ -1,12 +1,3 @@
-## Recipes
-
-## Convert hexadecimal string to `bytes`
-
-```python
-hex_string = "deadbeef"
-bytes_data = bytes.fromhex(hex_string)
-```
-
 ## Logging libraries
 
 Third parties logging libraries:
