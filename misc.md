@@ -10,6 +10,13 @@ https://keepachangelog.com/
 - PlantUML: https://plantuml.com/
 - HackerDraw: https://www.hackerdraw.com
 
+## Editors
+
+- ecode: https://github.com/SpartanJ/ecode
+- Lapce: https://lapce.dev/
+- Lite: https://github.com/rxi/lite
+- Lite XL: https://lite-xl.com/
+
 ## File Managers
 
 ### Terminal-based
