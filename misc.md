@@ -31,6 +31,22 @@ https://keepachangelog.com/
 
 https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
 
+## Keyboard layout management
+
+### On Linux
+
+Command showing the available keymaps:
+
+```
+localectl list-keymaps
+```
+
+Select a keymap from the list and run:
+
+```
+loadkeys <map>
+```
+
 ## RAM Disk
 
 ### ramdisk, ramfs, tmpfs
