@@ -66,3 +66,7 @@ Example:
 sudo mkdir -p /media/ramdisk
 sudo mount -t tmpfs -o size=2048M tmpfs /media/ramdisk
 ```
+
+## Windows software on Linux
+
+- Bottles: https://usebottles.com/
