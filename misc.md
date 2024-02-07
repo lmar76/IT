@@ -16,6 +16,7 @@ https://keepachangelog.com/
 - Lapce: https://lapce.dev/
 - Lite: https://github.com/rxi/lite
 - Lite XL: https://lite-xl.com/
+- Zed: https://zed.dev/
 
 ## File Managers
 
