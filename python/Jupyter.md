@@ -21,10 +21,10 @@ python -m ipykernel install --name <name> --display-name "<long name>" --sys-pre
 
 ## List and manage kernels
 
-Activate the base environment:
+Activate the environment for which you want to manahe kernels, e.g. the one used to start JupyterLab:
 
 ```
-conda activate base
+conda activate jupyter
 ```
 
 Listing and managing kernels:
