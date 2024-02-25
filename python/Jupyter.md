@@ -30,7 +30,7 @@ conda activate base
 Listing and managing kernels:
 
 ```
-$ jupyter kernelspec command [args]
+jupyter kernelspec command [args]
 ```
 
 
