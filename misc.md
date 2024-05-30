@@ -26,7 +26,7 @@
   - Main page: <https://vifm.info/>
   - Tutorial: <https://wiki.vifm.info/index.php/Quickstart_Tutorial>
 
-## freedesktop.org specs
+## `freedesktop.org` specs
 
 ### basedir-spec
 
@@ -68,6 +68,12 @@ Example:
 sudo mkdir -p /media/ramdisk
 sudo mount -t tmpfs -o size=2048M tmpfs /media/ramdisk
 ```
+
+## Remote Desktop clients
+
+### X11
+
+- X2Go: <https://wiki.x2go.org/doku.php/start>
 
 ## Windows software on Linux
 
