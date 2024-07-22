@@ -48,6 +48,15 @@ Select a keymap from the list and run:
 loadkeys <map>
 ```
 
+## Protocols and APIs
+
+### STAC - SpatioTemporal Asset Catalogs
+
+The STAC specification is a common language to describe geospatial information.
+
+- Homepage: <https://stacspec.org/>
+- STAC Index: <https://stacindex.org/>
+
 ## RAM Disk
 
 ### ramdisk, ramfs, tmpfs
