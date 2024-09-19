@@ -47,6 +47,17 @@ docker run --entrypoint [new_command] [docker_image]
 
 To enable the swap memory usage during the container execution, see <https://docs.docker.com/config/containers/resource_constraints/#--memory-swappiness-details>
 
+
+## Kubernetes
+
+Official site: <https://kubernetes.io/>.
+
+Alternative distributions:
+
+- minikube: <https://minikube.sigs.k8s.io/docs/>
+- K3s: <https://k3s.io/>
+
+
 ## Open Container Initiative
 
 The Open Container Initiative is an open governance structure for the express purpose of
