@@ -1,7 +1,7 @@
 # Download data from FTPS server
 
 ```
-whet --user <username> --ask-password ftps://<host>/<path>
+wget --user <username> --ask-password ftps://<host>/<path>
 ```
 
 # HTTP mirroring
