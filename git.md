@@ -86,6 +86,12 @@ Force push:
 
 git push --force
 
+## Push tags
+
+```sh
+$ git push --tags
+```
+
 ## Reset repository
 
 ```sh
