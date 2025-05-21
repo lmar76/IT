@@ -13,7 +13,7 @@ git archive --format tar.gz --output *filename* --prefix *prefix* *branch*
 E.g.:
 
 ```sh
-$ git archive --format tar.gz --output ~/sara-config.tar.gz --prefix sara-config/ master
+git archive --format tar.gz --output ~/sara-config.tar.gz --prefix sara-config/ master
 ```
 
 ## Delete branches
@@ -69,7 +69,7 @@ git rebase -X ours *branch*
 E.g.:
 
 ```sh
-$ git rebase -X ours development
+git rebase -X ours development
 ```
 
 Commit with `--amend` option:
@@ -79,7 +79,7 @@ git commit -a --amend -m *comment*
 E.g.:
 
 ```sh
-$ git commit -a --amend -m 'Notebook re-executed'
+git commit -a --amend -m 'Notebook re-executed'
 ```
 
 Force push:
@@ -89,11 +89,17 @@ git push --force
 ## Push tags
 
 ```sh
-$ git push --tags
+git push --tags
 ```
 
 ## Reset repository
 
 ```sh
-$ git reset --hard
+git reset --hard
+```
+
+## Show information about files and eol characters
+
+```sh
+git ls-files --eol
 ```
