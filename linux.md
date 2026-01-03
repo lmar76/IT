@@ -32,3 +32,7 @@ Git: <https://github.com/ranger/ranger>
 Homepage: <https://yazi-rs.github.io/>
 
 Git: <https://github.com/sxyazi/yazi>
+
+## Filesystem Hierarchy Standard
+
+Homepage: <https://refspecs.linuxfoundation.org/fhs.shtml>
