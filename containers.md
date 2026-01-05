@@ -31,16 +31,26 @@ Different paths can be specified using the `data-root` configuration parameter. 
 
 Reference: <https://docs.docker.com/config/daemon/#daemon-data-directory>
 
-### Run a container in interactive mode
+## Command-line how to
+
+The following commands are referrede to Docker but they are also valid for Podman.
+
+### List of images having empty `Repository` or `Tag`:
 
 ```sh
-docker run -i -t [docker_image]
+docker images --filter dangling=true
 ```
 
 ### Override entrypoint with docker run
 
 ```sh
 docker run --entrypoint [new_command] [docker_image]
+```
+
+### Run a container in interactive mode
+
+```sh
+docker run -i -t [docker_image]
 ```
 
 ### Swap usage
