@@ -2,7 +2,13 @@
 
 ## JSON
 
-See: <https://json.org/>
+JSON (JavaScript Object Notation) is a lightweight data-interchange format. See:
+<https://json.org/>.
+
+### Libraries
+
+- simdjson: <https://simdjson.org/>.
+
 
 ## MessagePack
 
